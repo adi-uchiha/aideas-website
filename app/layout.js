@@ -1,8 +1,9 @@
-import { Overpass } from "next/font/google";
+import { Crimson_Text } from "next/font/google";
 import "./globals.css";
 import NavBar from '@components/NavBar';
 
-const crimson = Overpass({
+
+const crimson = Crimson_Text({
   subsets: ["latin"],
   weight: ['400','600', '700'],
 });
